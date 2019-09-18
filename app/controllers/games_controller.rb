@@ -16,7 +16,7 @@ class GamesController < ApplicationController
   end
 
   def update
-    @game = Game.update(hash)
+    @game = Game.update(params[:game])
     render json: @game, status: 201
   end
 
