@@ -19,6 +19,4 @@ class GamesController < ApplicationController
     @game = Game.update(state: params[:state])
     render json: @game, status: 201
   end
-
-
 end
