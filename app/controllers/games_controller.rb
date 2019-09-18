@@ -16,15 +16,9 @@ class GamesController < ApplicationController
   end
 
   def update
-    #raise params.inspect
     @game = Game.update(state: params[:state])
     render json: @game, status: 201
   end
 
-  # private
-  #
-  #   def game_params
-  #     params.require(:game).permit(:id, :state)
-  #   end
 
 end
