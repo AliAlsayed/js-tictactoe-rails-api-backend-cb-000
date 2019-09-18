@@ -16,6 +16,7 @@ class GamesController < ApplicationController
   end
 
   def update
+    @game = Game.update(params[:state])
   end
 
 end
