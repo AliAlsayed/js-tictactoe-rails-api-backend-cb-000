@@ -25,5 +25,5 @@ class GamesController < ApplicationController
     def game_params
       params.require(:params).permit(:id, :state)
     end
-  
+
 end
