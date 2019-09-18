@@ -22,7 +22,7 @@ class GamesController < ApplicationController
   end
 
   # private
-  # 
+  #
   #   def game_params
   #     params.require(:game).permit(:id, :state)
   #   end
